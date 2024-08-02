@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message Board</title>
+    <title>WebBoard</title>
 </head>
 <body>
-    <h1>Message Board</h1>
+    <h1>WebBoard</h1>
     {% if not session.user_id %}
         <a href="{{ url_for('register') }}">Register</a>
         <a href="{{ url_for('login') }}">Login</a>
